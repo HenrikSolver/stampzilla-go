@@ -6,11 +6,12 @@ import connection from './connection';
 import connections from './connections';
 import devices from './devices';
 import nodes from './nodes';
+import persons from './persons';
 import requests from './requests';
 import rules from './rules';
 import savedstates from './savedstates';
-import server from './server';
 import schedules from './schedules';
+import server from './server';
 
 const rootReducer = combineReducers({
   app,
@@ -19,11 +20,12 @@ const rootReducer = combineReducers({
   connections,
   devices,
   nodes,
+  persons,
   requests,
   rules,
   savedstates,
-  server,
   schedules,
+  server,
 });
 
 export default rootReducer;

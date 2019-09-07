@@ -8,6 +8,7 @@ import { connected, disconnected, received } from '../ducks/connection';
 import { subscribe as connections } from '../ducks/connections';
 import { subscribe as devices } from '../ducks/devices';
 import { subscribe as nodes } from '../ducks/nodes';
+import { subscribe as persons } from '../ducks/persons';
 import { subscribe as requests } from '../ducks/requests';
 import { subscribe as rules } from '../ducks/rules';
 import { subscribe as savedstates } from '../ducks/savedstates';
@@ -22,7 +23,7 @@ const writeFunc = (data) => {
   }
   writeSocket.send(data);
 };
-export const write = msg => writeFunc(JSON.stringify(msg));
+export const write = (msg) => writeFunc(JSON.stringify(msg));
 
 class Websocket extends Component {
   constructor(props) {
@@ -58,6 +59,7 @@ class Websocket extends Component {
       connections,
       devices,
       nodes,
+      persons,
       requests,
       rules,
       savedstates,
@@ -77,7 +79,7 @@ class Websocket extends Component {
     dispatch(received(parsed));
     const subscriptions = this.subscriptions[parsed.type];
     if (subscriptions) {
-      subscriptions.forEach(callback => callback(parsed.body));
+      subscriptions.forEach((callback) => callback(parsed.body));
     }
     switch (parsed.type) {
       case 'server-info': {
@@ -137,7 +139,7 @@ class Websocket extends Component {
   render = () => null;
 }
 
-const mapToProps = state => ({
+const mapToProps = (state) => ({
   url: state.getIn(['app', 'url']),
 });
 export default connect(mapToProps)(Websocket);

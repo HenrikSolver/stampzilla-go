@@ -4,6 +4,4 @@ vendor
 configs
 
 web/dist
-rules.json
-savedstate.json
-schedule.json
+*.json

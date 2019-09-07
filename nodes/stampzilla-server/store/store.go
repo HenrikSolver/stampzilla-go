@@ -7,6 +7,7 @@ import (
 	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/logic"
 	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/models"
 	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/models/devices"
+	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/models/persons"
 )
 
 type Nodes map[string]*models.Node
@@ -23,6 +24,7 @@ type Store struct {
 	Certificates []Certificate
 	Requests     []Request
 	Server       map[string]map[string]devices.State
+	Persons      persons.List
 
 	onUpdate []UpdateCallback
 	sync.RWMutex
@@ -39,6 +41,7 @@ func New(l *logic.Logic, s *logic.Scheduler, sss *logic.SavedStateStore) *Store 
 		Certificates: make([]Certificate, 0),
 		Requests:     make([]Request, 0),
 		Server:       make(map[string]map[string]devices.State),
+		Persons:      persons.NewList(),
 	}
 
 	l.OnReportState(func(uuid string, state devices.State) {
@@ -73,6 +76,10 @@ func (store *Store) Load() error {
 	}
 
 	if err := store.Scheduler.Load(); err != nil {
+		return err
+	}
+
+	if err := store.Persons.Load(); err != nil {
 		return err
 	}
 
