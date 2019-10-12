@@ -7,13 +7,13 @@ import (
 
 	"github.com/olahol/melody"
 	"github.com/sirupsen/logrus"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/ca"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/interfaces"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/logic"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/models"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/models/devices"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/store"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/websocket"
+	"stampzilla/nodes/stampzilla-server/ca"
+	"stampzilla/nodes/stampzilla-server/interfaces"
+	"stampzilla/nodes/stampzilla-server/logic"
+	"stampzilla/nodes/stampzilla-server/models"
+	"stampzilla/nodes/stampzilla-server/models/devices"
+	"stampzilla/nodes/stampzilla-server/store"
+	"stampzilla/nodes/stampzilla-server/websocket"
 )
 
 type secureWebsocketHandler struct {

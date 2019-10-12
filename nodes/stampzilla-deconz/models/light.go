@@ -3,7 +3,7 @@ package models
 import (
 	"math"
 
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/models/devices"
+	"stampzilla/nodes/stampzilla-server/models/devices"
 )
 
 // Lights is a list of Light's

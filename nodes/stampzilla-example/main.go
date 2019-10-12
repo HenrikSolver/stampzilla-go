@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	"github.com/sirupsen/logrus"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/models/devices"
-	"github.com/stampzilla/stampzilla-go/pkg/node"
+	"stampzilla/nodes/stampzilla-server/models/devices"
+	"stampzilla/pkg/node"
 )
 
 func main() {

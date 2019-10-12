@@ -12,7 +12,7 @@ import (
 	"github.com/dustin/go-humanize"
 	"github.com/shirou/gopsutil/process"
 	"github.com/sirupsen/logrus"
-	"github.com/stampzilla/stampzilla-go/stampzilla/installer"
+	"stampzilla/stampzilla/installer"
 )
 
 type Systemd struct {

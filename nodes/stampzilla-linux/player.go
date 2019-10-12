@@ -14,7 +14,7 @@ import (
 	"github.com/faiface/beep/mp3"
 	"github.com/faiface/beep/speaker"
 	"github.com/sirupsen/logrus"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/models/devices"
+	"stampzilla/nodes/stampzilla-server/models/devices"
 )
 
 type Player struct {

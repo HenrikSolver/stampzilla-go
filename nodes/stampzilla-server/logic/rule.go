@@ -14,9 +14,9 @@ import (
 	"github.com/google/cel-go/interpreter"
 	"github.com/google/cel-go/parser"
 	"github.com/sirupsen/logrus"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/models/devices"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/websocket"
-	stypes "github.com/stampzilla/stampzilla-go/pkg/types"
+	"stampzilla/nodes/stampzilla-server/models/devices"
+	"stampzilla/nodes/stampzilla-server/websocket"
+	stypes "stampzilla/pkg/types"
 	exprpb "google.golang.org/genproto/googleapis/api/expr/v1alpha1"
 )
 

@@ -9,8 +9,8 @@ import (
 
 	"github.com/olahol/melody"
 	"github.com/sirupsen/logrus"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/models/devices"
-	stypes "github.com/stampzilla/stampzilla-go/pkg/types"
+	"stampzilla/nodes/stampzilla-server/models/devices"
+	stypes "stampzilla/pkg/types"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -4,12 +4,12 @@ package main
 import (
 	"fmt"
 
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/models"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/servermain"
-	"github.com/stampzilla/stampzilla-go/pkg/build"
+	"stampzilla/nodes/stampzilla-server/models"
+	"stampzilla/nodes/stampzilla-server/servermain"
+	"stampzilla/pkg/build"
 
 	// Statik for the webserver gui
-	_ "github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/statik"
+	_ "stampzilla/nodes/stampzilla-server/statik"
 )
 
 func main() {

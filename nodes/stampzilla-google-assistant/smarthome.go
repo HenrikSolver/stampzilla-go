@@ -9,9 +9,9 @@ import (
 	"github.com/davecgh/go-spew/spew"
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-google-assistant/googleassistant"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/models/devices"
-	"github.com/stampzilla/stampzilla-go/pkg/node"
+	"stampzilla/nodes/stampzilla-google-assistant/googleassistant"
+	"stampzilla/nodes/stampzilla-server/models/devices"
+	"stampzilla/pkg/node"
 )
 
 // SmartHomeHandler contains the logic to answer Google Actions API requests and authorize them usnig oauth2.

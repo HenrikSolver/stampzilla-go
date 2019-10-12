@@ -11,8 +11,8 @@ import (
 	"github.com/google/uuid"
 	"github.com/sirupsen/logrus"
 
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/models/devices"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/websocket"
+	"stampzilla/nodes/stampzilla-server/models/devices"
+	"stampzilla/nodes/stampzilla-server/websocket"
 )
 
 /* rules.json example:

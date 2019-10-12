@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"sync"
 
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/models/devices"
+	"stampzilla/nodes/stampzilla-server/models/devices"
 )
 
 type Node struct {

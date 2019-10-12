@@ -23,8 +23,8 @@ import (
 	"time"
 
 	"github.com/sirupsen/logrus"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/models"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/store"
+	"stampzilla/nodes/stampzilla-server/models"
+	"stampzilla/nodes/stampzilla-server/store"
 )
 
 const storagePath = "certificates"

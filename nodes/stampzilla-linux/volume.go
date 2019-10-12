@@ -6,7 +6,7 @@ import (
 
 	volume "github.com/itchyny/volume-go"
 	"github.com/sirupsen/logrus"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/models/devices"
+	"stampzilla/nodes/stampzilla-server/models/devices"
 )
 
 func monitorVolume() {

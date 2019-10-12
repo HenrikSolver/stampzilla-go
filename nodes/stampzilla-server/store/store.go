@@ -4,9 +4,9 @@ import (
 	"sync"
 
 	"github.com/sirupsen/logrus"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/logic"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/models"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/models/devices"
+	"stampzilla/nodes/stampzilla-server/logic"
+	"stampzilla/nodes/stampzilla-server/models"
+	"stampzilla/nodes/stampzilla-server/models/devices"
 )
 
 type Nodes map[string]*models.Node

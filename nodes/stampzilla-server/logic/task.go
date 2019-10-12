@@ -4,8 +4,8 @@ import (
 	"sync"
 
 	"github.com/sirupsen/logrus"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/models/devices"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/websocket"
+	"stampzilla/nodes/stampzilla-server/models/devices"
+	"stampzilla/nodes/stampzilla-server/websocket"
 )
 
 // Task is a task that can be scheduled using scheduler

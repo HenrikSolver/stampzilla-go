@@ -10,11 +10,11 @@ import (
 	"strings"
 
 	"github.com/sirupsen/logrus"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-deconz/models"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/models/devices"
-	"github.com/stampzilla/stampzilla-go/pkg/node"
-	nodelib "github.com/stampzilla/stampzilla-go/pkg/node"
-	"github.com/stampzilla/stampzilla-go/pkg/websocket"
+	"stampzilla/nodes/stampzilla-deconz/models"
+	"stampzilla/nodes/stampzilla-server/models/devices"
+	"stampzilla/pkg/node"
+	nodelib "stampzilla/pkg/node"
+	"stampzilla/pkg/websocket"
 )
 
 var wsClient = websocket.New()

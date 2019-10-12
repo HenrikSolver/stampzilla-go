@@ -36,7 +36,7 @@ func (c *Config) GetAutostartingNodes() []*Daemon {
 	return daemons
 }
 func (c *Config) GenerateDefault() error {
-	nodes, err := ioutil.ReadDir("/home/stampzilla/go/src/github.com/stampzilla/stampzilla-go/nodes/")
+	nodes, err := ioutil.ReadDir("/home/stampzilla/go/src/stampzilla/nodes/")
 	if err != nil {
 		return err
 	}

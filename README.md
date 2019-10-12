@@ -1,4 +1,4 @@
-stampzilla-go [![Build Status](https://travis-ci.org/stampzilla/stampzilla-go.svg?branch=master)](https://travis-ci.org/stampzilla/stampzilla-go) [![codecov](https://codecov.io/gh/stampzilla/stampzilla-go/branch/master/graph/badge.svg)](https://codecov.io/gh/stampzilla/stampzilla-go) [![Go Report Card](https://goreportcard.com/badge/github.com/stampzilla/stampzilla-go)](https://goreportcard.com/report/github.com/stampzilla/stampzilla-go)
+stampzilla-go [![Build Status](https://travis-ci.org/stampzilla/stampzilla-go.svg?branch=master)](https://travis-ci.org/stampzilla/stampzilla-go) [![codecov](https://codecov.io/gh/stampzilla/stampzilla-go/branch/master/graph/badge.svg)](https://codecov.io/gh/stampzilla/stampzilla-go) [![Go Report Card](https://goreportcard.com/badge/stampzilla)](https://goreportcard.com/report/stampzilla)
 =============
 
 Awesome homeautomation software written in Go and React
@@ -14,7 +14,7 @@ sudo stampzilla install server deconz #or whatever nodes you want to use.
 
 Installation from source
 ```bash
-go get -u github.com/stampzilla/stampzilla-go/stampzilla
+go get -u stampzilla/stampzilla
 sudo stampzilla install
 ```
 This creates a stampzilla user. checksout the code in stampzilla user home folder and creates some required folders. 

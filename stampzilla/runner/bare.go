@@ -9,7 +9,7 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/stampzilla/stampzilla-go/stampzilla/installer"
+	"stampzilla/stampzilla/installer"
 )
 
 type Bare struct {

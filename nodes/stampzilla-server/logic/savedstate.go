@@ -6,7 +6,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/models/devices"
+	"stampzilla/nodes/stampzilla-server/models/devices"
 )
 
 /* savedstate.json example

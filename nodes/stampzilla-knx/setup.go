@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/models/devices"
-	"github.com/stampzilla/stampzilla-go/pkg/node"
+	"stampzilla/nodes/stampzilla-server/models/devices"
+	"stampzilla/pkg/node"
 )
 
 func setupLight(node *node.Node, tunnel *tunnel, light light) {

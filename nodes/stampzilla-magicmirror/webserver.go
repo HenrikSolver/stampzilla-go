@@ -9,7 +9,7 @@ import (
 	"github.com/rakyll/statik/fs"
 	"github.com/sirupsen/logrus"
 
-	_ "github.com/stampzilla/stampzilla-go/nodes/stampzilla-magicmirror/statik"
+	_ "stampzilla/nodes/stampzilla-magicmirror/statik"
 )
 
 type Message struct {

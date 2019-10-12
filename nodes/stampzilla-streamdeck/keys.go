@@ -8,7 +8,7 @@ import (
 
 	"github.com/llgcode/draw2d"
 	"github.com/llgcode/draw2d/draw2dimg"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-streamdeck/streamdeck"
+	"stampzilla/nodes/stampzilla-streamdeck/streamdeck"
 )
 
 func drawTempToKey(deck *streamdeck.StreamDeck, label string, value float32, key int) {

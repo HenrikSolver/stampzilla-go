@@ -4,11 +4,11 @@
  - using env:	export GIN_MODE=release
  - using code:	gin.SetMode(gin.ReleaseMode)
 
-[GIN-debug] GET    /upnp/setup.xml           --> github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/hueemulator.upnpSetup.func1 (3 handlers)
-[GIN-debug] GET    /api/:userId              --> github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/hueemulator.getLightsList (3 handlers)
-[GIN-debug] PUT    /api/:userId/lights/:lightId/state --> github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/hueemulator.setLightState (3 handlers)
-[GIN-debug] GET    /api/:userId/lights/:lightId --> github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/hueemulator.getLightInfo (3 handlers)
-[GIN-debug] POST   /api                      --> github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/hueemulator.ListenAndServe.func1 (3 handlers)
+[GIN-debug] GET    /upnp/setup.xml           --> stampzilla/nodes/stampzilla-server/hueemulator.upnpSetup.func1 (3 handlers)
+[GIN-debug] GET    /api/:userId              --> stampzilla/nodes/stampzilla-server/hueemulator.getLightsList (3 handlers)
+[GIN-debug] PUT    /api/:userId/lights/:lightId/state --> stampzilla/nodes/stampzilla-server/hueemulator.setLightState (3 handlers)
+[GIN-debug] GET    /api/:userId/lights/:lightId --> stampzilla/nodes/stampzilla-server/hueemulator.getLightInfo (3 handlers)
+[GIN-debug] POST   /api                      --> stampzilla/nodes/stampzilla-server/hueemulator.ListenAndServe.func1 (3 handlers)
 [UPNP] listening...
 [WEB] 192.168.13.124:52754 POST /api
 {"devicetype":"ap-local-actions#jetstream"}
@@ -42,11 +42,11 @@ After added to home:
  - using env:	export GIN_MODE=release
  - using code:	gin.SetMode(gin.ReleaseMode)
 
-[GIN-debug] GET    /upnp/setup.xml           --> github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/hueemulator.upnpSetup.func1 (3 handlers)
-[GIN-debug] GET    /api/:userId              --> github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/hueemulator.getLightsList (3 handlers)
-[GIN-debug] PUT    /api/:userId/lights/:lightId/state --> github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/hueemulator.setLightState (3 handlers)
-[GIN-debug] GET    /api/:userId/lights/:lightId --> github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/hueemulator.getLightInfo (3 handlers)
-[GIN-debug] POST   /api                      --> github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/hueemulator.ListenAndServe.func1 (3 handlers)
+[GIN-debug] GET    /upnp/setup.xml           --> stampzilla/nodes/stampzilla-server/hueemulator.upnpSetup.func1 (3 handlers)
+[GIN-debug] GET    /api/:userId              --> stampzilla/nodes/stampzilla-server/hueemulator.getLightsList (3 handlers)
+[GIN-debug] PUT    /api/:userId/lights/:lightId/state --> stampzilla/nodes/stampzilla-server/hueemulator.setLightState (3 handlers)
+[GIN-debug] GET    /api/:userId/lights/:lightId --> stampzilla/nodes/stampzilla-server/hueemulator.getLightInfo (3 handlers)
+[GIN-debug] POST   /api                      --> stampzilla/nodes/stampzilla-server/hueemulator.ListenAndServe.func1 (3 handlers)
 [UPNP] listening...
 [UPNP] discovery request from 192.168.13.86:48251
 [UPNP] discovery request from 192.168.13.86:48251

@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 
 	"github.com/sirupsen/logrus"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/models"
+	"stampzilla/nodes/stampzilla-server/models"
 )
 
 func (store *Store) GetNodes() Nodes {

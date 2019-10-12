@@ -2,7 +2,7 @@ package websocket
 
 import (
 	"github.com/olahol/melody"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/models"
+	"stampzilla/nodes/stampzilla-server/models"
 )
 
 type SessionKey string

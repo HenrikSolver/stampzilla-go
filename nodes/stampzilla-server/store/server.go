@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 
 	"github.com/sirupsen/logrus"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/models/devices"
+	"stampzilla/nodes/stampzilla-server/models/devices"
 )
 
 func (s *Store) AddOrUpdateServer(area, item string, state devices.State) {

@@ -1,6 +1,6 @@
 package store
 
-import "github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/models"
+import "stampzilla/nodes/stampzilla-server/models"
 
 func (store *Store) GetConnections() Connections {
 	store.RLock()

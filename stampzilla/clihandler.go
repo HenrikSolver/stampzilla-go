@@ -14,10 +14,10 @@ import (
 
 	"github.com/google/go-github/github"
 	"github.com/sirupsen/logrus"
-	"github.com/stampzilla/stampzilla-go/pkg/build"
-	"github.com/stampzilla/stampzilla-go/stampzilla/installer"
-	"github.com/stampzilla/stampzilla-go/stampzilla/installer/binary"
-	"github.com/stampzilla/stampzilla-go/stampzilla/runner"
+	"stampzilla/pkg/build"
+	"stampzilla/stampzilla/installer"
+	"stampzilla/stampzilla/installer/binary"
+	"stampzilla/stampzilla/runner"
 	"github.com/urfave/cli"
 )
 

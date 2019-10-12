@@ -4,8 +4,9 @@ import (
 	"encoding/json"
 	"fmt"
 
+	"stampzilla/nodes/stampzilla-server/interfaces"
+
 	"github.com/olahol/melody"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/interfaces"
 )
 
 type Message struct {

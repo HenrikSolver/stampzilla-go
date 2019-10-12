@@ -10,7 +10,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/jonaz/cron"
 	"github.com/sirupsen/logrus"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/websocket"
+	"stampzilla/nodes/stampzilla-server/websocket"
 )
 
 /* schedule.json

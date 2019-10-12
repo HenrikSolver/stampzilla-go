@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/sirupsen/logrus"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-deconz/models"
+	"stampzilla/nodes/stampzilla-deconz/models"
 )
 
 func createUser() {

@@ -9,8 +9,8 @@ import (
 	"github.com/stampzilla/gocast/events"
 	"github.com/stampzilla/gocast/handlers"
 	"github.com/stampzilla/gocast/responses"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/models/devices"
-	"github.com/stampzilla/stampzilla-go/pkg/node"
+	"stampzilla/nodes/stampzilla-server/models/devices"
+	"stampzilla/pkg/node"
 )
 
 type Chromecast struct {

@@ -6,7 +6,7 @@ import (
 	"github.com/sirupsen/logrus"
 
 	"github.com/stampzilla/gocast/discovery"
-	"github.com/stampzilla/stampzilla-go/pkg/node"
+	"stampzilla/pkg/node"
 )
 
 var state = &State{

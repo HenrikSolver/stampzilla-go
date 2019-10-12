@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/sirupsen/logrus"
-	"github.com/stampzilla/stampzilla-go/pkg/build"
+	"stampzilla/pkg/build"
 	"github.com/urfave/cli"
 )
 

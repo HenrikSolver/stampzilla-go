@@ -17,11 +17,11 @@ import (
 	"github.com/olahol/melody"
 	"github.com/rakyll/statik/fs"
 	"github.com/sirupsen/logrus"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/handlers"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/models"
+	"stampzilla/nodes/stampzilla-server/handlers"
+	"stampzilla/nodes/stampzilla-server/models"
 
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/store"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/websocket"
+	"stampzilla/nodes/stampzilla-server/store"
+	"stampzilla/nodes/stampzilla-server/websocket"
 )
 
 type Webserver struct {

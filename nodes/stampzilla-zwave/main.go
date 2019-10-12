@@ -7,14 +7,16 @@ import (
 	"os"
 	"strconv"
 
+	"stampzilla/pkg/node"
+
+	"stampzilla/nodes/stampzilla-server/models/devices"
+
 	"github.com/sirupsen/logrus"
 	"github.com/stampzilla/gozwave"
 	"github.com/stampzilla/gozwave/events"
 	"github.com/stampzilla/gozwave/nodes"
 	zp "github.com/stampzilla/gozwave/protocol"
 	"github.com/stampzilla/gozwave/serialrecorder"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/models/devices"
-	"github.com/stampzilla/stampzilla-go/pkg/node"
 )
 
 func main() {

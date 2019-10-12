@@ -14,13 +14,13 @@ import (
 	"github.com/onrik/logrus/filename"
 	"github.com/sirupsen/logrus"
 	"github.com/stamp/mdns"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/ca"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/handlers"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/logic"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/models"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/store"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/webserver"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/websocket"
+	"stampzilla/nodes/stampzilla-server/ca"
+	"stampzilla/nodes/stampzilla-server/handlers"
+	"stampzilla/nodes/stampzilla-server/logic"
+	"stampzilla/nodes/stampzilla-server/models"
+	"stampzilla/nodes/stampzilla-server/store"
+	"stampzilla/nodes/stampzilla-server/webserver"
+	"stampzilla/nodes/stampzilla-server/websocket"
 )
 
 // Main contains deps used by server that will be exposed so we can write good end to end tests

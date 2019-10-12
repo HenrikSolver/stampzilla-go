@@ -3,8 +3,8 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/interfaces"
-	"github.com/stampzilla/stampzilla-go/nodes/stampzilla-server/models"
+	"stampzilla/nodes/stampzilla-server/interfaces"
+	"stampzilla/nodes/stampzilla-server/models"
 )
 
 type WebsocketHandler interface {

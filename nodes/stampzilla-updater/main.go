@@ -13,16 +13,16 @@ import (
 	"time"
 
 	"github.com/google/go-github/github"
-	"github.com/stampzilla/stampzilla-go/stampzilla/installer"
+	"stampzilla/stampzilla/installer"
 )
 
 const (
-	gitPath = "/home/stampzilla/go/src/github.com/stampzilla/stampzilla-go"
+	gitPath = "/home/stampzilla/go/src/stampzilla"
 )
 
 func main() {
 	//installer := installer.NewInstaller()
-	//installer.GoGet("github.com/stampzilla/stampzilla-go/nodes/stampzilla-enocean", true)
+	//installer.GoGet("stampzilla/nodes/stampzilla-enocean", true)
 	//return
 
 	wg := &sync.WaitGroup{}
@@ -79,7 +79,7 @@ func update(wg *sync.WaitGroup) {
 
 			if repoDate.After(n.ModTime()) {
 				log.Printf("Update date: %s for node: %s\n", repoDate, n.Name())
-				//installer.GoGet("github.com/stampzilla/stampzilla-go/nodes/"+n.Name(), true)
+				//installer.GoGet("stampzilla/nodes/"+n.Name(), true)
 				installer.Update(n.Name())
 			}
 		}

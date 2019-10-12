@@ -3,8 +3,8 @@ package installer
 import (
 	"fmt"
 
-	"github.com/stampzilla/stampzilla-go/stampzilla/installer/binary"
-	"github.com/stampzilla/stampzilla-go/stampzilla/installer/source"
+	"stampzilla/stampzilla/installer/binary"
+	"stampzilla/stampzilla/installer/source"
 )
 
 type Installer interface {
